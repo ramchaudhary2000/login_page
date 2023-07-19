@@ -4,7 +4,13 @@
     font-weight: 600;
     font-display: swap;
     src: url(./fonts/ClashDisplay-Semibold.woff2) format('woff2');
-  }
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
 
 *{
     margin: 0;
@@ -19,46 +25,48 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 0 50px 0;
+    padding: 3rem 0 5rem 0;
 }
 
 .heading{
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 60px;
+    gap: 1.2rem;
+    margin-bottom: 6rem;
     
 }
 
 .head1{
-    font-size: 22px;
+    font-size: 2.2rem;
     font-weight: 700;
     color: #03dac5;
 }
 
 .head2{
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 800;
     color: #232842;
     font-family: Clashdisplay,sans-serif;
 }
 
 .head3{
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 500;
 }
 
 .form_group {
     width: 90vw;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .form_item {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 2rem;
 }
 
 .required_note{
@@ -75,8 +83,8 @@
 }
 
 .form_item  label {
-    font-size: 20px;
-    margin: 10px;
+    font-size: 2rem;
+    margin: 1rem;
     margin-left: 0;
 }
 
@@ -85,29 +93,29 @@
 }
 
 .form_item  input {
-    font-size: 16px;
-    padding: 10px;
+    font-size: 1.6rem;
+    padding: 1rem;
     font-family: inherit;
     border: none;
-    border-bottom: solid 2px #00000049;
+    border-bottom: solid 0.2rem #00000049;
     outline: none;
 }
 
 .form_item  select{
-    font-size: 16px;
-    padding: 10px;
+    font-size: 1.6rem;
+    padding: 1rem;
     font-family: inherit;
 
     border: none;
-    border-bottom: solid 2px #00000049;
+    border-bottom: solid 0.2rem #00000049;
     outline: none;
 }
 
 .submit{
-    margin-top: 40px;
-    padding: 10px 20px;
+    margin-top: 4.0rem;
+    padding: 1rem 2rem;
     background-color: #03dac5;
-    border-radius: 5px;
+    border-radius: 0.5px;
     border: none;
     outline: none;
 }
