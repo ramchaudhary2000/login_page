@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Login_page</title>
+  </head>
+  <body>
+    <section id="login">
+        <div class="heading">
+            <div class="head1">contact</div>
+            <div class="head2">Let's Connect</div>
+            <div class="head3">
+                Please fill out the form below and we'll reach out right away
+            </div>
+        </div>
+        <form id="login"> 
+            <div class="form_group">
+                <div class="form_item">
+                    <label for="firstname">First name <span>*</span></label>
+                    <input class="textbox" type="text" name="firstname" id="firstname">
+                    <span class="required_note no_display">Please complete the required filed</span>
+                </div>
+                <div class="form_item">
+                    <label for="lastname">Last name <span>*</span></label>
+                    <input class="textbox" type="text" name="lastname" id="lastname">
+                    <span class="required_note no_display">Please complete the required filed</span>                </div>
+            </div>
+
+            <div class="form_group">
+                <div class="form_item">
+                    <label for="firstname">Email <span>*</span></label>
+                    <input class="textbox" type="email" name="email" id="email">
+                    <span class="required_note no_display">Please complete the required filed</span>                </div>
+                <div class="form_item">
+                    <label for="lastname">Comapny name <span>*</span></label>
+                    <input class="textbox" type="text" name="companyname" id="companyname">
+                    <span class="required_note no_display">Please complete the required filed</span>                </div>
+            </div>
+
+            <div class="form_group formgroup_dropdown">
+                <div class="form_item">
+                    <label for="firstname">Job title <span>*</span></label>
+                    <input class="textbox" type="text" name="jobtitle" id="jobtitle">
+                    <span class="required_note no_display">Please complete the required filed</span>                </div>
+                <div class="form_item">
+                    <label for="textbox">I'd like to <span>*</span></label>
+                    <select class="textbox" name="liketo" id="liketo">
+                        <option value="" disabled selected>Select a value</option>
+                        <option value="techstack">inance my tech stack</option>
+                        <option value="offercontract">Offer contract financing to my customers</option>
+                        <option value="somethingelse">Something else</option>  
+                    </select>
+                    <span class="required_note no_display">Please complete the required filed</span>                </div>
+            </div>
+        
+            <div class="form_group">
+                <div class="form_item">
+                    <label for="hearaboutus">How did you hear about us? <span>*</span></label>
+                    <input class="textbox" type="text" name="hearaboutus" id="hearaboutus">
+                    <span class="required_note no_display">Please complete the required filed</span>                </div>
+            </div>
+            <div class="form_group">
+                <div class="form_item">
+                    <label for="hearaboutus">Anything else you'd like us to know? </label>
+                    <input class="anything" type="text" name="anything" id="anything">
+                    <span class="required_note no_display">Please complete the required filed</span>                </div>
+            </div>
+
+            <button class="submit" type="submit">Submit</button>
+        </form>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

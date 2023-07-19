@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Clashdisplay';
+    font-style: bold;
+    font-weight: 600;
+    font-display: swap;
+    src: url(./fonts/ClashDisplay-Semibold.woff2) format('woff2');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2fbfa;
+}
+
+
+
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 50px 0;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 60px;
+    
+}
+
+.head1{
+    font-size: 22px;
+    font-weight: 700;
+    color: #03dac5;
+}
+
+.head2{
+    font-size: 60px;
+    font-weight: 800;
+    color: #232842;
+    font-family: Clashdisplay,sans-serif;
+}
+
+.head3{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.form_group {
+    width: 90vw;
+    display: flex;
+}
+
+.form_item {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.required_note{
+    color: red;
+
+}
+
+.no_display{
+    display: none;
+}
+
+.formgroup_dropdown > * {
+    width: 50%;
+}
+
+.form_item  label {
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 0;
+}
+
+.form_item  label span {
+    color: red;
+}
+
+.form_item  input {
+    font-size: 16px;
+    padding: 10px;
+    font-family: inherit;
+    border: none;
+    border-bottom: solid 2px #00000049;
+    outline: none;
+}
+
+.form_item  select{
+    font-size: 16px;
+    padding: 10px;
+    font-family: inherit;
+
+    border: none;
+    border-bottom: solid 2px #00000049;
+    outline: none;
+}
+
+.submit{
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #03dac5;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
